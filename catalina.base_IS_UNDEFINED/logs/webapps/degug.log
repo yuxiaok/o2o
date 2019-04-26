@@ -1,0 +1,27 @@
+2019-04-26 13:59:54.128 [main] DEBUG com.o2o.dao.AreaDaoTest - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-26 14:01:48.831 [main] DEBUG com.o2o.dao.AreaDaoTest - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-26 14:06:26.546 [main] DEBUG com.o2o.dao.AreaDaoTest - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-26 14:08:18.884 [main] DEBUG com.o2o.dao.AreaDaoTest - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-26 14:20:39.161 [main] DEBUG com.o2o.dao.AreaDaoTest - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-26 14:23:42.691 [main] DEBUG com.o2o.dao.AreaDaoTest - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-26 14:26:13.353 [main] DEBUG com.o2o.dao.AreaDaoTest - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-26 14:29:04.786 [main] DEBUG com.o2o.dao.AreaDaoTest - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-26 14:35:37.770 [main] DEBUG com.o2o.dao.AreaDaoTest - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-26 14:39:58.390 [main] DEBUG com.o2o.dao.AreaDaoTest - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-26 14:40:01.790 [main] DEBUG com.o2o.dao.AreaDao.queryArea - ==>  Preparing: select * from tb_area order by priority desc 
+2019-04-26 14:40:01.837 [main] DEBUG com.o2o.dao.AreaDao.queryArea - ==> Parameters: 
+2019-04-26 15:00:07.493 [main] DEBUG com.o2o.dao.AreaDaoTest - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-26 15:01:09.321 [main] DEBUG com.o2o.dao.AreaDaoTest - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-26 15:08:06.625 [main] DEBUG com.o2o.dao.test.AreaDaoTest - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-26 15:59:18.935 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-26 15:59:40.346 [main] DEBUG com.o2o.service.AreaServiceTest - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-26 16:01:26.352 [main] DEBUG com.o2o.service.AreaServiceTest - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-26 16:03:25.703 [main] DEBUG com.o2o.service.WechatAuthServiceTest - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-26 16:26:42.962 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-26 16:27:28.528 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-26 16:49:28.986 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-26 16:50:13.705 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-26 17:16:48.772 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-26 17:19:33.055 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-26 17:20:42.819 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-26 17:21:20.882 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <!-- 允许JDBC支持生成的键。需要适合的驱动。如果设置为true则这个设置强制生成的键被使用，尽管一些驱动拒绝兼容但仍然有效（比如Derby） -->
+        <setting name="useGeneratedKeys" value="true"/>
+        <!-- 使用列标签代替列名。不同的驱动在这方便表现不同。参考驱动文档或充分测试两种方法来决定所使用的驱动 -->
+        <setting name="useColumnLabel" value="true"/>
+        <!-- 开启驼峰匹配：经典的数据库列名（多个单词下划线连接）映射到经典的java属性名（多个单词驼峰连接） -->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!--开启sql语句显示-->
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+</configuration>
