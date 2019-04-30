@@ -18,7 +18,7 @@ import org.springframework.transaction.annotation.TransactionManagementConfigure
  * 事务管理
  */
 @EnableTransactionManagement
-public class TransctionalManagemengConfiguration implements TransactionManagementConfigurer {
+public class TransctionalManagementConfiguration implements TransactionManagementConfigurer {
 
     @Autowired
     private DataSource dataSource;

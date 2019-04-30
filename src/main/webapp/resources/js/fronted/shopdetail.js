@@ -87,7 +87,7 @@ $(function () {
                         + '<div class="list-block media-list">' + '<ul>'
                         + '<li class="item-content">'
                         + '<div class="item-media">' + '<img src="'
-                        + item.imgAddr + '" width="44">' + '</div>'
+                        + getContextPath() + item.imgAddr + '" width="44">' + '</div>'
                         + '<div class="item-inner">'
                         + '<div class="item-subtitle">' + item.productDesc
                         + '</div>' + '</div>' + '</li>' + '</ul>'

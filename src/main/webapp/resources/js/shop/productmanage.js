@@ -29,14 +29,14 @@ $(function () {
                     }
 
                     // 拼接每件商品信息
-                    tempHtml = "<div class='row row-product'>"
-                        + "<div class='col-30'>"
+                    tempHtml += "<div class='row row-product' >"
+                        + "<div class='col-25'>"
                         + item.productName
                         + "</div>"
-                        + "<div class='col-20'>"
+                        + "<div class='col-25'>"
                         + item.point
                         + "</div>"
-                        + "<div class='col-40'>"
+                        + "<div class='col-50'>"
                         + "<a href='#' class='edit' data-id='"
                         + item.productId
                         + "'>编辑</a>"
@@ -77,7 +77,7 @@ $(function () {
                         e.currentTarget.dataset.status);
                 } else if (target.hasClass('preview')) {
                     // 如果有class preview则去前台展示系统该商品详情页预览商品情况
-                    window.location.href = '/o2o/frontend/productdetail?productId='
+                    window.location.href = '/o2o/fronted/productdetail?productId='
                         + e.currentTarget.dataset.id;
                 }
             });
