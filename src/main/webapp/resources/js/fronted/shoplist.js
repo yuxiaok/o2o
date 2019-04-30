@@ -86,7 +86,7 @@ $(function () {
                         + '<div class="list-block media-list">' + '<ul>'
                         + '<li class="item-content">'
                         + '<div class="item-media">' + '<img src="'
-                        + item.shopImg + '" width="44">' + '</div>'
+                        + getContextPath() + item.shopImg + '" width="44">' + '</div>'
                         + '<div class="item-inner">'
                         + '<div class="item-subtitle">' + item.shopDesc
                         + '</div>' + '</div>' + '</li>' + '</ul>'
