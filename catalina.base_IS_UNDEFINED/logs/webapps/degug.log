@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+2019-04-27 16:32:41.499 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-04-27 16:36:23.009 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+=======
 2019-04-30 14:00:47.451 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
 2019-04-30 14:17:49.085 [http-nio-8080-exec-10] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/16\2019043014174921510.jpg
 2019-04-30 14:17:49.087 [http-nio-8080-exec-10] DEBUG com.o2o.util.ImageUtil - current dest addr:D:\projectdev\image\upload\images\item\shop\16\2019043014174921510.jpg
@@ -27,3 +31,4 @@
 2019-04-30 17:32:38.848 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
 2019-04-30 17:33:45.483 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
 2019-04-30 17:34:22.786 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+>>>>>>> master

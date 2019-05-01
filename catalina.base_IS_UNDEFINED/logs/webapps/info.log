@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+2019-04-27 16:32:41.495 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on yukaideMacBook-Pro.local with PID 2474 (/Users/yukai/springbootworkspace/o2o/target/classes started by yukai in /Users/yukai/springbootworkspace/o2o)
+2019-04-27 16:32:41.501 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
+2019-04-27 16:32:43.740 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.548 seconds (JVM running for 4.179)
+2019-04-27 16:36:23.008 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on yukaideMacBook-Pro.local with PID 2497 (/Users/yukai/springbootworkspace/o2o/target/classes started by yukai in /Users/yukai/springbootworkspace/o2o)
+2019-04-27 16:36:23.010 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
+2019-04-27 16:36:24.815 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.066 seconds (JVM running for 2.905)
+=======
 2019-04-30 14:00:47.443 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 18732 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
 2019-04-30 14:00:47.455 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
 2019-04-30 14:00:50.294 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 3.396 seconds (JVM running for 4.355)
@@ -49,3 +57,4 @@
 2019-04-30 17:34:22.783 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 22260 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
 2019-04-30 17:34:22.786 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
 2019-04-30 17:34:25.621 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 3.428 seconds (JVM running for 4.299)
+>>>>>>> master
