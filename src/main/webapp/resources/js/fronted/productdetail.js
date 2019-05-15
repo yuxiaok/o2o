@@ -19,13 +19,13 @@ $(function () {
                 if (product.normalPrice !== undefined && product.promotionPrice !== undefined) {
                     // 如果现价和原价都不为空，则都展示，并给原价加个删除符号
                     $normalPrice.html('原价: <del>¥' + product.normalPrice + '</del>');
-                    $promotionPrice.html('现价: ¥' + product.normalPrice);
+                    $promotionPrice.html('现价: ¥' + product.promotionPrice);
                 } else if (product.normalPrice !== undefined && product.promotionPrice === undefined) {
                     // 如果原价不为空，而现价为空，则只展示原价
                     $promotionPrice.html('现价: ¥' + product.normalPrice);
                 } else if (product.normalPrice === undefined && product.promotionPrice !== undefined) {
                     // 如果原价为空，现价不为空，则只展示现价
-                    $promotionPrice.html('现价: ¥' + product.normalPrice);
+                    $promotionPrice.html('现价: ¥' + product.promotionPrice);
                 }
 
                 // 获取商品详情图片列表
@@ -34,17 +34,20 @@ $(function () {
                 productDetailImgList.map(function (item, index) {
                     swiperHtml += ''
                         + '<div class="swiper-slide img-wrap">'
-                        + '<img class="banner-img" src="' + getContextPath() + item.imgAddr + '" alt="' + item.imgDesc + '">'
+                        + '<a href="' + item.lineLink + '" external>'
+                        + '<img class="banner-img img-detail" src="' + getContextPath() + item.imgAddr + '" alt="' + item.imgDesc + '">'
+                        + '</a>'
                         + '</div>';
                 });
                 // 生成购买商品的二维码供商家扫描
 //				imgListHtml += '<div> <img src="/ssm/front/generateqrcode4product?productId=' + product.productId + '"/></div>';
+                //将轮播图赋值给前端HTML控件
                 $('.swiper-wrapper').html(swiperHtml);
-                // 设置轮播图轮换时间为1秒
+                //设定轮播图轮换时间为3s
                 $(".swiper-container").swiper({
                     autoplay: 1500,
-                    // 用户对轮播图进行操作时，是否自动停止autoplay
-                    autoplayDisableOnInteraction: true
+                    //用户对轮播图进行操作时，是否自动停止轮播
+                    autoplayDisableOnInteraction: false
                 });
             }
         });

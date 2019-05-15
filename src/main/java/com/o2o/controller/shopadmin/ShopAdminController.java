@@ -32,7 +32,7 @@ public class ShopAdminController {
     }
 
     /**
-     * 商店管理
+     * 商铺管理
      * 
      * @return
      */
