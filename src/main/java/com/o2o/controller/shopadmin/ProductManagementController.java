@@ -140,7 +140,6 @@ public class ProductManagementController {
             map.put("success", true);
             map.put("product", product);
             map.put("productCategoryList", pcList);
-
         } else {
             map.put("success", false);
             map.put("errMsg", "参数错误");
@@ -225,7 +224,6 @@ public class ProductManagementController {
         }
         return map;
     }
-
 
     @GetMapping("/getproductlistbyshop")
     @ResponseBody
