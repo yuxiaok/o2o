@@ -33,6 +33,11 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter implements Applica
     @Autowired
     private ApplicationContext applicationContext;
 
+    @Value("${win.base.path}")
+    private String winpath;
+    @Value("${linux.base.path}")
+    private String linuxPath;
+
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         this.applicationContext = applicationContext;
@@ -43,14 +48,13 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter implements Applica
      * 
      * @param registry
      */
-    // TODO
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         // registry.addResourceHandler("/resources/**").addResourceLocations("classpath:/resources/");
-        String os = "/Users/projectdev/image/";
+        String os = linuxPath;
         String property = System.getProperty("os.name").toLowerCase();
         if (property.startsWith("win")) {
-            os = "D:/projectdev/image/upload/";
+            os = winpath;
         }
         registry.addResourceHandler("/upload/**").addResourceLocations("file:" + os);
     }
