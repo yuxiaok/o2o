@@ -19,3 +19,6 @@
 2019-05-11 15:02:06.761 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 14012 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
 2019-05-11 15:02:06.765 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
 2019-05-11 15:02:09.508 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 3.249 seconds (JVM running for 4.133)
+2019-05-11 15:23:51.599 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 1192 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
+2019-05-11 15:23:51.602 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
+2019-05-11 15:23:53.941 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.772 seconds (JVM running for 3.642)
