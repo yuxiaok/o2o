@@ -1,29 +1,17 @@
-2019-04-30 14:00:47.451 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
-2019-04-30 14:17:49.085 [http-nio-8080-exec-10] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/16\2019043014174921510.jpg
-2019-04-30 14:17:49.087 [http-nio-8080-exec-10] DEBUG com.o2o.util.ImageUtil - current dest addr:D:\projectdev\image\upload\images\item\shop\16\2019043014174921510.jpg
-2019-04-30 14:17:49.172 [http-nio-8080-exec-10] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/16\2019043014174944784.jpg
-2019-04-30 14:17:49.173 [http-nio-8080-exec-10] DEBUG com.o2o.util.ImageUtil - current dest addr:D:\projectdev\image\upload\images\item\shop\16\2019043014174944784.jpg
-2019-04-30 14:19:49.056 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
-2019-04-30 14:21:19.839 [http-nio-8080-exec-5] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/16\2019043014211967434.jpg
-2019-04-30 14:21:19.840 [http-nio-8080-exec-5] DEBUG com.o2o.util.ImageUtil - current dest addr:D:\projectdev\image\upload\images\item\shop\16\2019043014211967434.jpg
-2019-04-30 14:21:19.884 [http-nio-8080-exec-5] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/16\2019043014211942893.jpg
-2019-04-30 14:21:19.884 [http-nio-8080-exec-5] DEBUG com.o2o.util.ImageUtil - current dest addr:D:\projectdev\image\upload\images\item\shop\16\2019043014211942893.jpg
-2019-04-30 14:23:27.720 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
-2019-04-30 14:32:18.079 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
-2019-04-30 14:41:33.606 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
-2019-04-30 14:42:30.346 [http-nio-8080-exec-8] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/item/shop/16\2019043014423058679.jpg
-2019-04-30 14:42:30.347 [http-nio-8080-exec-8] DEBUG com.o2o.util.ImageUtil - current dest addr:D:\projectdev\image\upload\item\shop\16\2019043014423058679.jpg
-2019-04-30 14:42:30.398 [http-nio-8080-exec-8] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/item/shop/16\2019043014423091748.jpg
-2019-04-30 14:42:30.398 [http-nio-8080-exec-8] DEBUG com.o2o.util.ImageUtil - current dest addr:D:\projectdev\image\upload\item\shop\16\2019043014423091748.jpg
-2019-04-30 14:43:59.986 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
-2019-04-30 14:52:42.996 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
-2019-04-30 14:54:12.497 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
-2019-04-30 16:58:51.700 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
-2019-04-30 17:14:26.438 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
-2019-04-30 17:15:54.346 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
-2019-04-30 17:26:22.542 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
-2019-04-30 17:30:39.896 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
-2019-04-30 17:31:52.258 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
-2019-04-30 17:32:38.848 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
-2019-04-30 17:33:45.483 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
-2019-04-30 17:34:22.786 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-11 09:46:56.956 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-11 09:53:01.001 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-11 09:53:28.753 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-11 14:50:08.173 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-11 14:54:01.203 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-11 14:56:48.676 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-11 15:02:06.764 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-11 15:09:56.219 [http-nio-8080-exec-4] DEBUG com.o2o.util.ImageUtil - current relative addr:\upload\item\shop\16\2019051115095674683.jpg
+2019-05-11 15:09:56.220 [http-nio-8080-exec-4] DEBUG com.o2o.util.ImageUtil - current dest addr:D:\projectdev\image\upload\item\shop\16\2019051115095674683.jpg
+2019-05-11 15:09:56.273 [http-nio-8080-exec-4] DEBUG com.o2o.util.ImageUtil - current relative addr:\upload\item\shop\16\2019051115095674657.jpg
+2019-05-11 15:09:56.273 [http-nio-8080-exec-4] DEBUG com.o2o.util.ImageUtil - current dest addr:D:\projectdev\image\upload\item\shop\16\2019051115095674657.jpg
+2019-05-11 15:09:56.285 [http-nio-8080-exec-4] DEBUG com.o2o.util.ImageUtil - current relative addr:\upload\item\shop\16\2019051115095645425.jpg
+2019-05-11 15:09:56.285 [http-nio-8080-exec-4] DEBUG com.o2o.util.ImageUtil - current dest addr:D:\projectdev\image\upload\item\shop\16\2019051115095645425.jpg
+2019-05-11 15:22:22.451 [http-nio-8080-exec-5] DEBUG com.o2o.util.ImageUtil - current relative addr:\upload\item\shop\16\2019051115222214693.jpg
+2019-05-11 15:22:22.451 [http-nio-8080-exec-5] DEBUG com.o2o.util.ImageUtil - current dest addr:D:\projectdev\image\upload\item\shop\16\2019051115222214693.jpg
+2019-05-11 15:22:22.466 [http-nio-8080-exec-5] DEBUG com.o2o.util.ImageUtil - current relative addr:\upload\item\shop\16\2019051115222231354.jpg
+2019-05-11 15:22:22.466 [http-nio-8080-exec-5] DEBUG com.o2o.util.ImageUtil - current dest addr:D:\projectdev\image\upload\item\shop\16\2019051115222231354.jpg
