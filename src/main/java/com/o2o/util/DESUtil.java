@@ -2,6 +2,7 @@ package com.o2o.util;
 
 import java.security.Key;
 import java.security.SecureRandom;
+import java.util.Date;
 
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
@@ -96,5 +97,6 @@ public class DESUtil {
         System.out.println(getEncryptString("work"));
         System.out.println(getEncryptString("123456"));
         System.out.println(getEncryptString("root"));
+        System.out.printf(new Date().toString());
     }
 }

@@ -10,7 +10,7 @@ public class Award {
     /**
      * 主键id
      */
-    private Long awarId;
+    private Long awardId;
     /**
      * 奖品名
      */
@@ -50,18 +50,18 @@ public class Award {
 
     @Override
     public String toString() {
-        return "Award{" + "awarId=" + awarId + ", awardName='" + awardName + '\'' + ", awardDesc='" + awardDesc + '\''
+        return "Award{" + "awardId=" + awardId + ", awardName='" + awardName + '\'' + ", awardDesc='" + awardDesc + '\''
             + ", awardImg='" + awardImg + '\'' + ", point=" + point + ", priority=" + priority + ", createTime="
             + createTime + ", lastEditTime=" + lastEditTime + ", enableStatus=" + enableStatus + ", shopId=" + shopId
             + '}';
     }
 
-    public Long getAwarId() {
-        return awarId;
+    public Long getAwardId() {
+        return awardId;
     }
 
-    public void setAwarId(Long awarId) {
-        this.awarId = awarId;
+    public void setAwardId(Long awardId) {
+        this.awardId = awardId;
     }
 
     public String getAwardName() {

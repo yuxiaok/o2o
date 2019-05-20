@@ -1,86 +1,72 @@
-
-2019-05-09 09:37:44.699 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on yukaideMacBook-Pro.local with PID 1297 (/Users/yukai/springbootworkspace/o2o/target/classes started by yukai in /Users/yukai/springbootworkspace/o2o)
-2019-05-09 09:37:44.703 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-05-09 09:37:46.956 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.549 seconds (JVM running for 3.982)
-2019-05-11 09:46:56.943 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 6208 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-05-11 09:46:56.960 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-05-11 09:46:59.415 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.787 seconds (JVM running for 5.173)
-2019-05-11 09:53:00.998 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 6868 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-05-11 09:53:01.001 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-05-11 09:53:03.262 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.679 seconds (JVM running for 3.479)
-2019-05-11 09:53:28.751 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 10804 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-05-11 09:53:28.753 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-05-11 09:53:31.055 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.77 seconds (JVM running for 3.522)
-2019-05-11 14:50:08.171 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 13616 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-05-11 14:50:08.173 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-05-11 14:50:10.505 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.685 seconds (JVM running for 3.533)
-2019-05-11 14:54:01.201 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 13668 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-05-11 14:54:01.204 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-05-11 14:54:03.650 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.903 seconds (JVM running for 3.827)
-2019-05-11 14:56:48.673 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 288 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-05-11 14:56:48.679 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-05-11 14:56:50.947 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.641 seconds (JVM running for 3.488)
-2019-05-11 15:02:06.761 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 14012 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-05-11 15:02:06.765 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-05-11 15:02:09.508 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 3.249 seconds (JVM running for 4.133)
-2019-05-11 15:23:51.599 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 1192 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-05-11 15:23:51.602 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-05-11 15:23:53.941 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.772 seconds (JVM running for 3.642)
-2019-04-27 16:32:41.495 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on yukaideMacBook-Pro.local with PID 2474 (/Users/yukai/springbootworkspace/o2o/target/classes started by yukai in /Users/yukai/springbootworkspace/o2o)
-2019-04-27 16:32:41.501 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-04-27 16:32:43.740 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.548 seconds (JVM running for 4.179)
-2019-04-27 16:36:23.008 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on yukaideMacBook-Pro.local with PID 2497 (/Users/yukai/springbootworkspace/o2o/target/classes started by yukai in /Users/yukai/springbootworkspace/o2o)
-2019-04-27 16:36:23.010 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-04-27 16:36:24.815 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.066 seconds (JVM running for 2.905)
-2019-04-30 14:00:47.443 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 18732 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-04-30 14:00:47.455 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-04-30 14:00:50.294 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 3.396 seconds (JVM running for 4.355)
-2019-04-30 14:19:49.050 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 16732 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-04-30 14:19:49.057 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-04-30 14:19:51.715 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 3.112 seconds (JVM running for 4.016)
-2019-04-30 14:23:27.717 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 14952 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-04-30 14:23:27.722 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-04-30 14:23:30.455 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 3.429 seconds (JVM running for 4.476)
-2019-04-30 14:32:18.068 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 19048 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-04-30 14:32:18.080 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-04-30 14:32:20.524 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.9 seconds (JVM running for 3.915)
-2019-04-30 14:41:33.599 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 12592 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-04-30 14:41:33.607 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-04-30 14:41:36.226 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 3.074 seconds (JVM running for 3.965)
-2019-04-30 14:43:59.983 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 19696 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-04-30 14:43:59.986 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-04-30 14:44:02.327 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.74 seconds (JVM running for 3.516)
-2019-04-30 14:52:42.993 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 16608 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-04-30 14:52:42.996 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-04-30 14:52:46.653 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 4.124 seconds (JVM running for 5.409)
-2019-04-30 14:54:12.494 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 19812 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-04-30 14:54:12.498 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-04-30 14:54:14.959 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 3.223 seconds (JVM running for 4.129)
-2019-04-30 16:58:51.695 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 21348 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-04-30 16:58:51.701 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-04-30 16:58:54.080 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.946 seconds (JVM running for 5.164)
-2019-04-30 17:14:26.436 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 6000 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-04-30 17:14:26.439 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-04-30 17:14:29.212 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 3.202 seconds (JVM running for 4.065)
-2019-04-30 17:15:54.342 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 12460 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-04-30 17:15:54.347 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-04-30 17:15:57.367 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 3.427 seconds (JVM running for 4.273)
-2019-04-30 17:26:22.539 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 20788 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-04-30 17:26:22.543 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-04-30 17:26:25.530 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 3.717 seconds (JVM running for 4.661)
-2019-04-30 17:30:39.891 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 8040 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-04-30 17:30:39.904 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-04-30 17:30:42.815 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 3.546 seconds (JVM running for 4.454)
-2019-04-30 17:31:52.256 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 22372 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-04-30 17:31:52.259 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-04-30 17:31:54.609 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.858 seconds (JVM running for 3.846)
-2019-04-30 17:32:38.837 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 14236 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-04-30 17:32:38.849 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-04-30 17:32:41.543 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 3.2 seconds (JVM running for 4.147)
-2019-04-30 17:33:45.480 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 20824 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-04-30 17:33:45.484 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-04-30 17:33:48.200 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 3.207 seconds (JVM running for 4.083)
-2019-04-30 17:34:22.783 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on TCN1201385 with PID 22260 (D:\gitworkspace\o2o\target\classes started by kai.yu in D:\gitworkspace\o2o)
-2019-04-30 17:34:22.786 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-04-30 17:34:25.621 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 3.428 seconds (JVM running for 4.299)
-
+2019-05-19 11:15:26.643 [main] INFO  com.o2o.dao.test.UserAwardMapDaoTest - Starting UserAwardMapDaoTest on bogon with PID 1218 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-19 11:15:26.647 [main] INFO  com.o2o.dao.test.UserAwardMapDaoTest - No active profile set, falling back to default profiles: default
+2019-05-19 11:15:29.098 [main] INFO  com.o2o.dao.test.UserAwardMapDaoTest - Started UserAwardMapDaoTest in 2.668 seconds (JVM running for 3.641)
+2019-05-19 11:17:06.428 [main] INFO  com.o2o.dao.test.UserAwardMapDaoTest - Starting UserAwardMapDaoTest on bogon with PID 1226 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-19 11:17:06.429 [main] INFO  com.o2o.dao.test.UserAwardMapDaoTest - No active profile set, falling back to default profiles: default
+2019-05-19 11:17:08.494 [main] INFO  com.o2o.dao.test.UserAwardMapDaoTest - Started UserAwardMapDaoTest in 2.263 seconds (JVM running for 2.933)
+2019-05-19 11:19:40.223 [main] INFO  com.o2o.dao.test.UserAwardMapDaoTest - Starting UserAwardMapDaoTest on bogon with PID 1236 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-19 11:19:40.224 [main] INFO  com.o2o.dao.test.UserAwardMapDaoTest - No active profile set, falling back to default profiles: default
+2019-05-19 11:19:42.332 [main] INFO  com.o2o.dao.test.UserAwardMapDaoTest - Started UserAwardMapDaoTest in 2.296 seconds (JVM running for 3.015)
+2019-05-19 11:20:52.016 [main] INFO  com.o2o.dao.test.UserAwardMapDaoTest - Starting UserAwardMapDaoTest on bogon with PID 1241 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-19 11:20:52.017 [main] INFO  com.o2o.dao.test.UserAwardMapDaoTest - No active profile set, falling back to default profiles: default
+2019-05-19 11:20:54.112 [main] INFO  com.o2o.dao.test.UserAwardMapDaoTest - Started UserAwardMapDaoTest in 2.284 seconds (JVM running for 2.947)
+2019-05-19 11:22:48.572 [main] INFO  com.o2o.dao.test.UserAwardMapDaoTest - Starting UserAwardMapDaoTest on bogon with PID 1245 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-19 11:22:48.574 [main] INFO  com.o2o.dao.test.UserAwardMapDaoTest - No active profile set, falling back to default profiles: default
+2019-05-19 11:22:50.726 [main] INFO  com.o2o.dao.test.UserAwardMapDaoTest - Started UserAwardMapDaoTest in 2.337 seconds (JVM running for 3.088)
+2019-05-19 15:45:22.522 [main] INFO  com.o2o.dao.test.UserProductMapTest - Starting UserProductMapTest on bogon with PID 1843 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-19 15:45:22.524 [main] INFO  com.o2o.dao.test.UserProductMapTest - No active profile set, falling back to default profiles: default
+2019-05-19 15:45:25.234 [main] INFO  com.o2o.dao.test.UserProductMapTest - Started UserProductMapTest in 3.049 seconds (JVM running for 4.12)
+2019-05-19 15:47:37.577 [main] INFO  com.o2o.dao.test.UserProductMapTest - Starting UserProductMapTest on bogon with PID 1861 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-19 15:47:37.579 [main] INFO  com.o2o.dao.test.UserProductMapTest - No active profile set, falling back to default profiles: default
+2019-05-19 15:47:40.159 [main] INFO  com.o2o.dao.test.UserProductMapTest - Started UserProductMapTest in 2.822 seconds (JVM running for 3.659)
+2019-05-19 16:56:46.611 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on bogon with PID 2002 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-19 16:56:46.613 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
+2019-05-19 16:56:49.248 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 2.883 seconds (JVM running for 3.76)
+2019-05-19 16:57:57.633 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on bogon with PID 2006 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-19 16:57:57.635 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
+2019-05-19 16:58:00.136 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 2.722 seconds (JVM running for 3.563)
+2019-05-19 17:37:30.809 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on bogon with PID 2269 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-19 17:37:30.811 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
+2019-05-19 17:37:33.152 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 2.557 seconds (JVM running for 3.3)
+2019-05-19 17:38:09.579 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on bogon with PID 2288 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-19 17:38:09.580 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
+2019-05-19 17:38:11.904 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 2.539 seconds (JVM running for 3.287)
+2019-05-19 17:46:01.947 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on bogon with PID 2479 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-19 17:46:01.949 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
+2019-05-19 17:46:04.217 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 2.475 seconds (JVM running for 3.181)
+2019-05-19 17:53:01.632 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on bogon with PID 2694 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-19 17:53:01.633 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
+2019-05-19 17:53:03.874 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 2.453 seconds (JVM running for 3.134)
+2019-05-19 17:55:54.156 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on bogon with PID 2783 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-19 17:55:54.157 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
+2019-05-19 17:55:56.467 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 2.53 seconds (JVM running for 3.277)
+2019-05-19 18:03:36.630 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on bogon with PID 2967 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-19 18:03:36.631 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
+2019-05-19 18:03:38.765 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 2.345 seconds (JVM running for 3.115)
+2019-05-19 18:40:42.904 [main] INFO  com.o2o.dao.test.UserShopMapDaoTest - Starting UserShopMapDaoTest on bogon with PID 3902 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-19 18:40:42.905 [main] INFO  com.o2o.dao.test.UserShopMapDaoTest - No active profile set, falling back to default profiles: default
+2019-05-19 18:40:45.077 [main] INFO  com.o2o.dao.test.UserShopMapDaoTest - Started UserShopMapDaoTest in 2.381 seconds (JVM running for 3.06)
+2019-05-19 18:43:19.722 [main] INFO  com.o2o.dao.test.UserShopMapDaoTest - Starting UserShopMapDaoTest on bogon with PID 3948 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-19 18:43:19.724 [main] INFO  com.o2o.dao.test.UserShopMapDaoTest - No active profile set, falling back to default profiles: default
+2019-05-19 18:43:21.965 [main] INFO  com.o2o.dao.test.UserShopMapDaoTest - Started UserShopMapDaoTest in 2.448 seconds (JVM running for 3.165)
+2019-05-19 18:43:55.628 [main] INFO  com.o2o.dao.test.UserShopMapDaoTest - Starting UserShopMapDaoTest on bogon with PID 3961 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-19 18:43:55.629 [main] INFO  com.o2o.dao.test.UserShopMapDaoTest - No active profile set, falling back to default profiles: default
+2019-05-19 18:43:57.823 [main] INFO  com.o2o.dao.test.UserShopMapDaoTest - Started UserShopMapDaoTest in 2.407 seconds (JVM running for 3.095)
+2019-05-19 18:44:24.414 [main] INFO  com.o2o.dao.test.UserProductMapTest - Starting UserProductMapTest on bogon with PID 3967 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-19 18:44:24.415 [main] INFO  com.o2o.dao.test.UserProductMapTest - No active profile set, falling back to default profiles: default
+2019-05-19 18:44:26.674 [main] INFO  com.o2o.dao.test.UserProductMapTest - Started UserProductMapTest in 2.458 seconds (JVM running for 3.123)
+2019-05-19 18:44:47.964 [main] INFO  com.o2o.dao.test.UserShopMapDaoTest - Starting UserShopMapDaoTest on bogon with PID 3978 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-19 18:44:47.965 [main] INFO  com.o2o.dao.test.UserShopMapDaoTest - No active profile set, falling back to default profiles: default
+2019-05-19 18:44:50.158 [main] INFO  com.o2o.dao.test.UserShopMapDaoTest - Started UserShopMapDaoTest in 2.401 seconds (JVM running for 3.064)
+2019-05-19 18:47:02.863 [main] INFO  com.o2o.dao.test.UserShopMapDaoTest - Starting UserShopMapDaoTest on bogon with PID 4021 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-19 18:47:02.864 [main] INFO  com.o2o.dao.test.UserShopMapDaoTest - No active profile set, falling back to default profiles: default
+2019-05-19 18:47:05.020 [main] INFO  com.o2o.dao.test.UserShopMapDaoTest - Started UserShopMapDaoTest in 2.359 seconds (JVM running for 3.058)
+2019-05-19 18:49:59.459 [main] INFO  com.o2o.dao.test.UserShopMapDaoTest - Starting UserShopMapDaoTest on bogon with PID 4074 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-19 18:49:59.460 [main] INFO  com.o2o.dao.test.UserShopMapDaoTest - No active profile set, falling back to default profiles: default
+2019-05-19 18:50:01.547 [main] INFO  com.o2o.dao.test.UserShopMapDaoTest - Started UserShopMapDaoTest in 2.287 seconds (JVM running for 2.942)
+2019-05-19 18:52:49.596 [main] INFO  com.o2o.dao.test.UserShopMapDaoTest - Starting UserShopMapDaoTest on bogon with PID 4109 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-19 18:52:49.597 [main] INFO  com.o2o.dao.test.UserShopMapDaoTest - No active profile set, falling back to default profiles: default
+2019-05-19 18:52:51.699 [main] INFO  com.o2o.dao.test.UserShopMapDaoTest - Started UserShopMapDaoTest in 2.298 seconds (JVM running for 3.038)
+2019-05-19 19:01:56.365 [main] INFO  com.o2o.dao.test.UserShopMapDaoTest - Starting UserShopMapDaoTest on bogon with PID 4306 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-19 19:01:56.366 [main] INFO  com.o2o.dao.test.UserShopMapDaoTest - No active profile set, falling back to default profiles: default
+2019-05-19 19:01:58.492 [main] INFO  com.o2o.dao.test.UserShopMapDaoTest - Started UserShopMapDaoTest in 2.341 seconds (JVM running for 3.049)
