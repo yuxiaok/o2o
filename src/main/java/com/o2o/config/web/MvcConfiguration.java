@@ -81,6 +81,7 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter implements Applica
         InterceptorRegistration loginIr = registry.addInterceptor(new ShopLoginInterceptor());
         // 拦截路径
         loginIr.addPathPatterns(interceptPath);
+        loginIr.excludePathPatterns("/shopadmin/addshopauthmap");
         // 添加另一个拦截器
         InterceptorRegistration interceptorPermission = registry.addInterceptor(new ShopPermissionInterceptor());
         // 拦截路径
@@ -96,6 +97,7 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter implements Applica
         // shopmange page
         interceptorPermission.excludePathPatterns("/shopadmin/shopmanagement");
         interceptorPermission.excludePathPatterns("/shopadmin/getshopmanagementinfo");
+        interceptorPermission.excludePathPatterns("/shopadmin/addshopauthmap");
     }
 
     /**
