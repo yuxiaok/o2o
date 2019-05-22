@@ -70,4 +70,44 @@ public class ShopAdminController {
     public String productmanagement() {
         return "shop/productmanagement";
     }
+
+    /**
+     * 授权页面
+     * 
+     * @return
+     */
+    @GetMapping("/shopauthmanagement")
+    public String shopAuthManagement() {
+        return "shop/shopauthmanage";
+    }
+
+    /**
+     * 授权编辑
+     * 
+     * @return
+     */
+    @GetMapping("/shopauthedit")
+    public String shopAuthEdit() {
+        return "shop/shopauthedit";
+    }
+
+    /**
+     * 操作失败页面
+     * 
+     * @return
+     */
+    @GetMapping("/operationfail")
+    public String operationFail() {
+        return "shop/operationfail";
+    }
+
+    /**
+     * 操作成功页面
+     * 
+     * @return
+     */
+    @GetMapping("/operationsuccess")
+    public String operationSuccess() {
+        return "shop/operationsuccess";
+    }
 }
