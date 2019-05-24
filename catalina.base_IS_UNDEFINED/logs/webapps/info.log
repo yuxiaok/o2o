@@ -1,12 +1,21 @@
-2019-05-22 10:35:27.777 [main] INFO  com.o2o.util.ShortNetAddressUtil - response string:{"Code":0,"ShortUrl":"https://dwz.cn/ZVAxIbO4","LongUrl":"https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login","ErrMsg":""}
-2019-05-22 10:35:27.936 [main] INFO  com.o2o.util.ShortNetAddressUtil - shortUrl:https://dwz.cn/ZVAxIbO4
-2019-05-22 10:35:36.865 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on bogon with PID 10474 (/Users/yukai/ideaworkspace/o2o/target/classes started by yukai in /Users/yukai/ideaworkspace/o2o)
-2019-05-22 10:35:36.870 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-05-22 10:35:38.889 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.312 seconds (JVM running for 2.932)
-2019-05-22 10:39:03.026 [http-nio-8080-exec-8] INFO  com.o2o.util.ShortNetAddressUtil - response string:{"Code":0,"IsNew":true,"ShortUrl":"https://dwz.cn/JVm6l4Nw","LongUrl":"https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxfbd2b36e13b30b5e\u0026redirect_uri=http://47.104.233.230/o2o/shopadmin/addShopAuthMap\u0026response_type=code\u0026scope=snsapi_userinfo\u0026state=%7BaaashopIdaaa%3A16%2CaaacreateTimeaaa%3A1558492690102%7D#wechat_redirect","ErrMsg":""}
-2019-05-22 10:39:03.053 [http-nio-8080-exec-8] INFO  com.o2o.util.ShortNetAddressUtil - shortUrl:https://dwz.cn/JVm6l4Nw
-2019-05-22 15:42:04.617 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on yukaideMacBook-Pro.local with PID 11068 (/Users/yukai/ideaworkspace/o2o/target/classes started by yukai in /Users/yukai/ideaworkspace/o2o)
-2019-05-22 15:42:04.620 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-05-22 15:42:06.587 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.272 seconds (JVM running for 3.154)
-2019-05-22 15:55:12.748 [http-nio-8080-exec-4] INFO  com.o2o.util.ShortNetAddressUtil - response string:{"Code":0,"IsNew":true,"ShortUrl":"https://dwz.cn/0Ivvxsp1","LongUrl":"https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxfbd2b36e13b30b5e\u0026redirect_uri=http://47.104.233.230/o2o/shopadmin/addShopAuthMap\u0026response_type=code\u0026scope=snsapi_userinfo\u0026state=%7BaaashopIdaaa%3A16%2CaaacreateTimeaaa%3A1558511701136%7D#wechat_redirect","ErrMsg":""}
-2019-05-22 15:55:12.757 [http-nio-8080-exec-4] INFO  com.o2o.util.ShortNetAddressUtil - shortUrl:https://dwz.cn/0Ivvxsp1
+2019-05-24 09:52:48.909 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on bogon with PID 15585 (/Users/yukai/ideaworkspace/o2o/target/classes started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-24 09:52:48.918 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
+2019-05-24 09:52:51.549 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.973 seconds (JVM running for 3.608)
+2019-05-24 10:39:34.895 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on bogon with PID 15801 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-24 10:39:34.897 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
+2019-05-24 10:39:37.568 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 2.913 seconds (JVM running for 3.832)
+2019-05-24 10:41:51.048 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on bogon with PID 15811 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-24 10:41:51.049 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
+2019-05-24 10:41:53.742 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 2.922 seconds (JVM running for 3.745)
+2019-05-24 15:32:19.766 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on bogon with PID 16336 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-24 15:32:19.767 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
+2019-05-24 15:32:23.149 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 3.639 seconds (JVM running for 4.835)
+2019-05-24 15:32:32.389 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on bogon with PID 16341 (/Users/yukai/ideaworkspace/o2o/target/classes started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-24 15:32:32.392 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
+2019-05-24 15:32:34.803 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.73 seconds (JVM running for 3.376)
+2019-05-24 15:35:39.271 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on bogon with PID 16345 (started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-24 15:35:39.272 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
+2019-05-24 15:35:42.142 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 3.121 seconds (JVM running for 4.022)
+2019-05-24 15:35:51.179 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on bogon with PID 16349 (/Users/yukai/ideaworkspace/o2o/target/classes started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-24 15:35:51.182 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
+2019-05-24 15:35:53.421 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.539 seconds (JVM running for 3.12)
