@@ -110,4 +110,9 @@ public class ShopAdminController {
     public String operationSuccess() {
         return "shop/operationsuccess";
     }
+
+    @GetMapping("/productbuycheck")
+    public String productBuyCheck() {
+        return "shop/productbuycheck";
+    }
 }
