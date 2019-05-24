@@ -1,7 +1,5 @@
 package com.o2o.dao.test;
 
-import java.util.List;
-
 import org.junit.Assert;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
@@ -12,8 +10,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import com.o2o.dao.ProductSellDailyDao;
-import com.o2o.entity.ProductSellDaily;
-import com.o2o.entity.Shop;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -30,7 +26,13 @@ public class ProductSellDailyDaoTest {
     }
 
     @Test
-    public void testBQueryProductSellDaily() {
+    public void testBInsertDefaultProductSellDaily() {
+        int effectNum = productSellDailyDao.insertDefaultProductSellDaily();
+        Assert.assertEquals(3, effectNum);
+    }
+
+    /* @Test
+    public void testCQueryProductSellDaily() {
         ProductSellDaily productSellDaily = new ProductSellDaily();
         Shop shop = new Shop();
         shop.setShopId(16L);
@@ -38,5 +40,5 @@ public class ProductSellDailyDaoTest {
         List<ProductSellDaily> productSellDailies =
             productSellDailyDao.queryProductSellDailyList(productSellDaily, null, null);
         Assert.assertEquals(2, productSellDailies.size());
-    }
+    }*/
 }

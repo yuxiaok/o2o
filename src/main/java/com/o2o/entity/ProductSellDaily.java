@@ -7,6 +7,7 @@ import java.util.Date;
  * @date 2019/4/24 顾客消费的商品映射
  **/
 public class ProductSellDaily {
+    private Long productSellDailyId;
     /**
      * 哪一天的销量，精确到天
      */
@@ -28,6 +29,14 @@ public class ProductSellDaily {
     public String toString() {
         return "ProductSellDaily{" + "createTime=" + createTime + ", total=" + total + ", product=" + product
             + ", shop=" + shop + '}';
+    }
+
+    public Long getProductSellDailyId() {
+        return productSellDailyId;
+    }
+
+    public void setProductSellDailyId(Long productSellDailyId) {
+        this.productSellDailyId = productSellDailyId;
     }
 
     public Date getCreateTime() {

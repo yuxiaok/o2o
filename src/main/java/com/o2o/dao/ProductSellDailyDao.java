@@ -25,4 +25,9 @@ public interface ProductSellDailyDao {
      * @return
      */
     int insertProductSellDaily();
+
+    /**
+     * 如果平台当天没有销量，则补全信息，设置销量为0
+     */
+    int insertDefaultProductSellDaily();
 }
