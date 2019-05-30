@@ -3,6 +3,7 @@ package com.o2o.dto;
 import java.util.List;
 
 import com.o2o.entity.UserProductMap;
+import com.o2o.enums.UserProductMapStateEnum;
 
 public class UserProductMapExecution {
 
@@ -11,6 +12,19 @@ public class UserProductMapExecution {
     private int count;
     private UserProductMap userProductMap;
     private List<UserProductMap> userProductMapList;
+
+    public UserProductMapExecution() {}
+
+    public UserProductMapExecution(UserProductMapStateEnum userProductMapStateEnum) {
+        this.state = userProductMapStateEnum.getState();
+        this.stateInfo = userProductMapStateEnum.getStateInfo();
+    }
+
+    public UserProductMapExecution(UserProductMapStateEnum userProductMapStateEnum, UserProductMap userProductMap) {
+        this.state = userProductMapStateEnum.getState();
+        this.stateInfo = userProductMapStateEnum.getStateInfo();
+        this.userProductMap = userProductMap;
+    }
 
     public int getState() {
         return state;

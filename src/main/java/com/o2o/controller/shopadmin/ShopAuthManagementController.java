@@ -143,6 +143,7 @@ public class ShopAuthManagementController {
         WechatAuth auth = getEmployeeInfo(request);
         if (auth != null) {
             PersonInfo user = personInfoService.getPersonInfoById(auth.getPersonInfo().getUserId());
+            // todo
             request.getSession().setAttribute("user", user);
             String qrCodeInfo = new String(URLDecoder.decode(HttpRequestUtil.getString(request, "state"), "UTF-8"));
             ObjectMapper objectMapper = new ObjectMapper();

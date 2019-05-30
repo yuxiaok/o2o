@@ -8,7 +8,7 @@ function changeVerifyCode(img) {
 }
 
 /**
- * 获取路径中的shopId
+ * 获取路径中的参数
  * @param name
  * @returns
  */
