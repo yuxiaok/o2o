@@ -3,17 +3,16 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>商店详情</title>
+    <title>奖品详情</title>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="/ssm/favicon.ico">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="stylesheet"
           href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
     <link rel="stylesheet"
           href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css">
-    <link rel="stylesheet"
-          href="../resources/css/fronted/shopdetail/shopdetail.css">
+    <link rel="stylesheet" href="../resources/css/fronted/productdetail/productdetail.css">
 </head>
 <body>
 <div class="page-group">
@@ -23,66 +22,58 @@
                onClick="javascript :history.back(-1);" data-transition='slide-out'>
                 <span class="icon icon-left"></span> 返回
             </a>
-            <h1 class="title" id="shop-name">店铺详情</h1>
-            <a class="button button-link button-nav pull-right" external
-               href="#" id="exchangelist" data-transition="slide-out">
-                奖品兑换<span class="icon icon-right"></span>
-            </a>
+            <h1 class="title" id="title"></h1>
         </header>
         <nav class="bar bar-tab">
-            <a class="tab-item" href="/o2o/frontend/index" external> <span
+            <a class="tab-item" href="/o2o/fronted/index" external> <span
                     class="icon icon-home"></span> <span class="tab-label">首页</span>
             </a> <a class="tab-item" href="#" id="me"> <span
                 class="icon icon-me"></span> <span class="tab-label">我</span>
         </a>
         </nav>
+
+        <!-- 内容区域 -->
         <div class="content infinite-scroll infinite-scroll-bottom"
-             data-distance="100">
-            <!-- 这里是页面内容区 -->
+             data-distance="50">
+            <!--商品详情图，轮播-->
+            <!-- 这里是轮播图展示区 -->
+            <div class="swiper-container index-banner" data-space-between='10'>
+                <div class="swiper-wrapper">
+                    <!-- <div class="swiper-slide img-wrap">
+                            <img class="banner-img" src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1n3rZHFXXXXX9XFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide img-wrap">
+                            <img class="banner-img" src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i4/TB10rkPGVXXXXXGapXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide img-wrap">
+                            <img class="banner-img" src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1kQI3HpXXXXbSXFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg" alt="">
+                        </div> -->
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
             <div class="shop-detail-dev">
                 <div class="card">
-                    <div valign="bottom"
-                         class="card-header color-white no-border no-padding">
-                        <img class='card-cover' id="shop-cover-pic" src="" alt="">
-                    </div>
                     <div class="card-content">
                         <div class="card-content-inner">
                             <p class="color-gray">
-                                <span id="shop-update-time"></span>
+                                <span id="create-time">2015/01/15</span>
                             </p>
-                            <p id="shop-name"></p>
-                            <p id="shop-desc"></p>
-                            <p id="shop-addr"></p>
-                            <p id="shop-phone"></p>
+                            <p id="award-desc"></p>
+                            <!-- 商品缩略图 -->
+                            <div align="bottom"
+                                 class="card-header color-white no-border no-padding">
+                                <img id="award-img" class='card-cover' src="" alt="">
+                            </div>
                         </div>
                     </div>
-                    <div class="card-footer">
-                        <!-- <a href="#" class="link">赞</a> -->
-                        <!-- <a href="#" class="link">更多</a> -->
-                    </div>
+                    <div class="card-img" id="imgList"></div>
                 </div>
             </div>
-            <div class="shopdetail-button-div" id="shopdetail-button-div">
-            </div>
-            <div class="detail-search">
-                <div class="searchbar">
-                    <a class="searchbar-cancel">取消</a>
-                    <div class="search-input">
-                        <label class="icon icon-search" for="search"></label> <input
-                            type="search" id='search' placeholder='输入关键字...'/>
-                    </div>
-                </div>
-            </div>
-            <div class="list-div">
 
-            </div>
-            <div class="infinite-scroll-preloader">
-                <div class="preloader"></div>
-            </div>
+
         </div>
     </div>
 
-    <!--侧边栏  -->
     <div class="panel-overlay"></div>
     <div class="panel panel-right panel-reveal" id="panel-left-demo">
         <div class="content-block">
@@ -108,18 +99,17 @@
     </div>
 </div>
 
-
 <script type='text/javascript'
         src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
 <script type='text/javascript'
         src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
 <script type='text/javascript'
         src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
-<script type='text/javascript'
-        src='../resources/js/common/common.js' charset='utf-8'></script>
-<script type='text/javascript'
-        src='../resources/js/fronted/shopdetail.js' charset='utf-8'></script>
-<script type='text/javascript' src='../resources/js/local/logout.js'
+<script type='text/javascript' src='../resources/js/common/common.js'
         charset='utf-8'></script>
+<script type='text/javascript'
+        src='../resources/js/common/date.format.js' charset='utf-8'></script>
+<script type='text/javascript'
+        src='../resources/js/fronted/myawarddetail.js' charset='utf-8'></script>
 </body>
 </html>

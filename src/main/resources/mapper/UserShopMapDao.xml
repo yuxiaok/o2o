@@ -39,7 +39,7 @@
                 AND usm.shop_id = #{userShopCondition.shop.shopId}
             </if>
             <if test="userShopCondition.user!=null and userShopCondition.user.userName!=null">
-                AND buyer.name LIKE '%${userShopCondition.user.userName}%'
+                AND buyer.user_name LIKE '%${userShopCondition.user.userName}%'
             </if>
             <if test="userShopCondition.shop != null and userShopCondition.shop.shopName!=null">
                 AND s.shop_name LIKE '%${userShopCondition.shop。shopName}%'
@@ -67,7 +67,7 @@
                 AND usm.shop_id = #{userShopCondition.shop.shopId}
             </if>
             <if test="userShopCondition.user!=null and userShopCondition.user.userName!=null">
-                AND buyer.name LIKE '%${userShopCondition.user.userName}%'
+                AND buyer.user_name LIKE '%${userShopCondition.user.userName}%'
             </if>
             <if test="userShopCondition.shop != null and userShopCondition.shop.shopName!=null">
                 AND s.shop_name LIKE '%${userShopCondition.shop。shopName}%'

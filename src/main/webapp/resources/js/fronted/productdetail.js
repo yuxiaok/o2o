@@ -39,8 +39,11 @@ $(function () {
                         + '</a>'
                         + '</div>';
                 });
+                // if (data.needQRCode) {
                 // 生成购买商品的二维码供商家扫描
-//				imgListHtml += '<div> <img src="/ssm/front/generateqrcode4product?productId=' + product.productId + '"/></div>';
+                swiperHtml += '<div> <img src="/o2o/fronted/generateqrcode4product?productId=' + product.productId + '" ' +
+                    'width="100%"/></div>';
+                // }
                 //将轮播图赋值给前端HTML控件
                 $('.swiper-wrapper').html(swiperHtml);
                 //设定轮播图轮换时间为3s

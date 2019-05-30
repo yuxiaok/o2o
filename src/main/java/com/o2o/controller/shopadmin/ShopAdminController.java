@@ -115,4 +115,25 @@ public class ShopAdminController {
     public String productBuyCheck() {
         return "shop/productbuycheck";
     }
+
+    @GetMapping("/usershopcheck")
+    public String userShopCheck() {
+        return "shop/usershopcheck";
+    }
+
+    @GetMapping("/awarddelivercheck")
+    public String awardDeliverCheck() {
+        return "shop/awarddelivercheck";
+    }
+
+    @GetMapping("/awardmanagement")
+    public String awardManagement() {
+        return "shop/awardmanage";
+    }
+
+    @GetMapping("/awardoperation")
+    public String awardOperation() {
+        return "shop/awardoperation";
+    }
+
 }

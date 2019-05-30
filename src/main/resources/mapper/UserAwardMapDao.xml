@@ -53,7 +53,7 @@
             <if test="userAwardCondition.user != null and userAwardCondition.user.userId!=null">
                 AND uam.user_id = #{userAwardCondition.user.userId}
             </if>
-            <if test="userAwardCondition.shop!=null and serAwardCondition.shop.shopId != null">
+            <if test="userAwardCondition.shop!=null and userAwardCondition.shop.shopId != null">
                 AND uam.shop_id = #{userAwardCondition.shop.shopId}
             </if>
             <if test="userAwardCondition.user != null and userAwardCondition.user.userName != null">
@@ -86,7 +86,7 @@
             <if test="userAwardCondition.user != null and userAwardCondition.user.userId!=null">
                 AND uam.user_id = #{userAwardCondition.user.userId}
             </if>
-            <if test="userAwardCondition.shop!=null and serAwardCondition.shop.shopId != null">
+            <if test="userAwardCondition.shop!=null and userAwardCondition.shop.shopId != null">
                 AND uam.shop_id = #{userAwardCondition.shop.shopId}
             </if>
             <if test="userAwardCondition.user != null and userAwardCondition.user.userName != null">
