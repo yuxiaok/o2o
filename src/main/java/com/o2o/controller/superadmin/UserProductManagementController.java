@@ -1,5 +1,7 @@
 package com.o2o.controller.superadmin;
 
+import java.io.IOException;
+import java.net.URLDecoder;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
@@ -9,18 +11,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.o2o.dto.EchartSeries;
-import com.o2o.dto.EchatXAxis;
-import com.o2o.dto.UserProductMapExecution;
-import com.o2o.entity.Product;
-import com.o2o.entity.ProductSellDaily;
-import com.o2o.entity.Shop;
-import com.o2o.entity.UserProductMap;
-import com.o2o.service.ProductSellDailService;
-import com.o2o.service.UserProductMapService;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.o2o.dto.*;
+import com.o2o.entity.*;
+import com.o2o.enums.UserProductMapStateEnum;
+import com.o2o.service.*;
 import com.o2o.util.HttpRequestUtil;
+import com.o2o.util.wechat.WechatUtil;
 
 @Controller
 @RequestMapping("/shopadmin")
@@ -31,6 +31,16 @@ public class UserProductManagementController {
 
     @Autowired
     private ProductSellDailService productSellDailService;
+
+    @Autowired
+    private ProductService productService;
+    @Autowired
+    private PersonInfoService personInfoService;
+    @Autowired
+    private ShopAuthMapService shopAuthMapService;
+
+    @Autowired
+    private WechatAuthService wechatAuthService;
 
     @GetMapping("/listuserproductmapbyshop")
     @ResponseBody
@@ -141,4 +151,109 @@ public class UserProductManagementController {
 
         return modelMap;
     }
+
+    @RequestMapping(value = "/adduserproductmap", method = RequestMethod.GET)
+    @ResponseBody
+    private String addUserProductMap(HttpServletRequest request) {
+        WechatAuth auth = getOperatorInfo(request);
+        if (auth != null) {
+            PersonInfo operator = auth.getPersonInfo();
+            request.getSession().setAttribute("user", operator);
+            String qrCodeinfo = "";
+            try {
+                qrCodeinfo = new String(URLDecoder.decode(HttpRequestUtil.getString(request, "state"), "UTF-8"));
+            } catch (IOException e) {
+                return "shop/operationfail";
+            }
+
+            ObjectMapper mapper = new ObjectMapper();
+            WechatInfo wechatInfo = null;
+            try {
+                wechatInfo = mapper.readValue(qrCodeinfo.replace("aaa", "\""), WechatInfo.class);
+            } catch (Exception e) {
+                return "shop/operationfail";
+            }
+            if (!checkQRCodeInfo(wechatInfo)) {
+                return "shop/operationfail";
+            }
+            Long productId = wechatInfo.getProductId();
+            Long customerId = wechatInfo.getCustomerId();
+            UserProductMap userProductMap = compactUserProductMap4Add(customerId, productId);
+            if (userProductMap != null && customerId != -1) {
+                try {
+                    if (!checkShopAuth(operator.getUserId(), userProductMap)) {
+                        return "shop/operationfail";
+                    }
+                    UserProductMapExecution se = userProductMapService.addUserProductMap(userProductMap);
+                    if (se.getState() == UserProductMapStateEnum.SUCCESS.getState()) {
+                        return "shop/operationsuccess";
+                    }
+
+                } catch (RuntimeException e) {
+                    return "shop/operationfail";
+                }
+
+            }
+        }
+        return "shop/operationfail";
+    }
+
+    private WechatAuth getOperatorInfo(HttpServletRequest request) {
+        String code = request.getParameter("code");
+        WechatAuth wechatAuth = null;
+        if (null != code) {
+            UserAccessToken token;
+            try {
+                token = WechatUtil.getUserAccessToken(code);
+                String openId = token.getOpenId();
+                request.getSession().setAttribute("openId", openId);
+                wechatAuth = wechatAuthService.getWechatAuthByOpenId(openId);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return wechatAuth;
+    }
+
+    private boolean checkQRCodeInfo(WechatInfo wechatInfo) {
+        if (wechatInfo != null && wechatInfo.getProductId() != null && wechatInfo.getCustomerId() != null
+            && wechatInfo.getCreateTime() != null) {
+            long nowTime = System.currentTimeMillis();
+            if ((nowTime - wechatInfo.getCreateTime()) <= 5000) {
+                return true;
+            } else {
+                return false;
+            }
+        } else {
+            return false;
+        }
+    }
+
+    private UserProductMap compactUserProductMap4Add(Long customerId, Long productId) {
+        UserProductMap userProductMap = null;
+        if (customerId != null && productId != null) {
+            userProductMap = new UserProductMap();
+            PersonInfo customer = new PersonInfo();
+            customer.setUserId(customerId);
+            Product product = productService.queryProductByProductId(productId);
+            userProductMap.setProduct(product);
+            userProductMap.setShop(product.getShop());
+            userProductMap.setUser(customer);
+            userProductMap.setPoint(product.getPoint());
+            userProductMap.setCreateTime(new Date());
+        }
+        return userProductMap;
+    }
+
+    private boolean checkShopAuth(long userId, UserProductMap userProductMap) {
+        ShopAuthMapExecution shopAuthMapExecution =
+            shopAuthMapService.listShopAuthMapByShopId(userProductMap.getShop().getShopId(), 1, 1000);
+        for (ShopAuthMap shopAuthMap : shopAuthMapExecution.getShopAuthMapList()) {
+            if (shopAuthMap.getEmployee().getUserId() == userId) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 }

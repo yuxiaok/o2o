@@ -57,6 +57,7 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter implements Applica
             os = winpath;
         }
         registry.addResourceHandler("/upload/**").addResourceLocations("file:" + os);
+        super.addResourceHandlers(registry);
     }
 
     /**

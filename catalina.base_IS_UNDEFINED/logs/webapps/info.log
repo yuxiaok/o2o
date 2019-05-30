@@ -1,21 +1,10 @@
-2019-05-24 09:52:48.909 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on bogon with PID 15585 (/Users/yukai/ideaworkspace/o2o/target/classes started by yukai in /Users/yukai/ideaworkspace/o2o)
-2019-05-24 09:52:48.918 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-05-24 09:52:51.549 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.973 seconds (JVM running for 3.608)
-2019-05-24 10:39:34.895 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on bogon with PID 15801 (started by yukai in /Users/yukai/ideaworkspace/o2o)
-2019-05-24 10:39:34.897 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
-2019-05-24 10:39:37.568 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 2.913 seconds (JVM running for 3.832)
-2019-05-24 10:41:51.048 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on bogon with PID 15811 (started by yukai in /Users/yukai/ideaworkspace/o2o)
-2019-05-24 10:41:51.049 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
-2019-05-24 10:41:53.742 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 2.922 seconds (JVM running for 3.745)
-2019-05-24 15:32:19.766 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on bogon with PID 16336 (started by yukai in /Users/yukai/ideaworkspace/o2o)
-2019-05-24 15:32:19.767 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
-2019-05-24 15:32:23.149 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 3.639 seconds (JVM running for 4.835)
-2019-05-24 15:32:32.389 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on bogon with PID 16341 (/Users/yukai/ideaworkspace/o2o/target/classes started by yukai in /Users/yukai/ideaworkspace/o2o)
-2019-05-24 15:32:32.392 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-05-24 15:32:34.803 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.73 seconds (JVM running for 3.376)
-2019-05-24 15:35:39.271 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on bogon with PID 16345 (started by yukai in /Users/yukai/ideaworkspace/o2o)
-2019-05-24 15:35:39.272 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
-2019-05-24 15:35:42.142 [main] INFO  com.o2o.dao.test.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 3.121 seconds (JVM running for 4.022)
-2019-05-24 15:35:51.179 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on bogon with PID 16349 (/Users/yukai/ideaworkspace/o2o/target/classes started by yukai in /Users/yukai/ideaworkspace/o2o)
-2019-05-24 15:35:51.182 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-05-24 15:35:53.421 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.539 seconds (JVM running for 3.12)
+2019-05-30 00:00:00.020 [schedulerFactory_Worker-1] INFO  com.o2o.service.impl.ProductSellDailServiceImpl - Quartz running
+2019-05-30 08:38:46.991 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on yukaideMacBook-Pro.local with PID 5486 (/Users/yukai/ideaworkspace/o2o/target/classes started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-30 08:38:46.997 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
+2019-05-30 08:38:49.525 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.843 seconds (JVM running for 3.458)
+2019-05-30 08:40:21.705 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on yukaideMacBook-Pro.local with PID 5493 (/Users/yukai/ideaworkspace/o2o/target/classes started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-30 08:40:21.708 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
+2019-05-30 08:40:24.406 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 3.028 seconds (JVM running for 3.725)
+2019-05-30 09:25:55.453 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on yukaideMacBook-Pro.local with PID 5715 (/Users/yukai/ideaworkspace/o2o/target/classes started by yukai in /Users/yukai/ideaworkspace/o2o)
+2019-05-30 09:25:55.456 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
+2019-05-30 09:25:58.210 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 3.1 seconds (JVM running for 3.764)

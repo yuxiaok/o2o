@@ -45,4 +45,29 @@ public class FrontedController {
     private String productDetail() {
         return "fronted/productdetail";
     }
+
+    @GetMapping("/awardlist")
+    private String awardList() {
+        return "fronted/awardlist";
+    }
+
+    @GetMapping("/pointrecord")
+    private String pointRecord() {
+        return "fronted/pointrecord";
+    }
+
+    @GetMapping("/myawardetail")
+    private String myAwardDetail() {
+        return "fronted/myawarddetail";
+    }
+
+    @GetMapping("/myrecord")
+    private String myRecord() {
+        return "fronted/myrecord";
+    }
+
+    @GetMapping("/mypoint")
+    private String myPoint() {
+        return "fronted/mypoint";
+    }
 }
