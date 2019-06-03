@@ -1,3 +1,88 @@
 2019-05-30 08:38:46.994 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
 2019-05-30 08:40:21.707 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
 2019-05-30 09:25:55.456 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 10:02:48.543 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 10:13:11.411 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 10:16:10.552 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 10:19:15.747 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 10:21:43.347 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 10:27:36.831 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 10:28:40.133 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 13:01:54.398 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 13:17:49.935 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 13:18:43.155 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 13:20:17.935 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 13:23:10.773 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 13:23:49.152 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 13:25:05.254 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 13:29:28.471 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 13:35:52.001 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 13:36:26.514 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 13:39:33.006 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 13:45:12.094 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 13:47:40.300 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 14:08:52.898 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 14:13:02.263 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 14:21:48.429 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 14:22:33.339 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 14:24:22.707 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 14:26:11.317 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 14:27:06.564 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 14:28:10.836 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 14:29:16.467 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 14:30:47.127 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 14:32:17.880 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 14:33:38.527 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 14:36:36.815 [http-nio-8080-exec-8] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/3/2019053014363615113.jpg
+2019-05-30 14:36:36.818 [http-nio-8080-exec-8] DEBUG com.o2o.util.ImageUtil - current dest addr:/Users/yukai/o2o/upload/images/item/shop/3/2019053014363615113.jpg
+2019-05-30 14:37:33.355 [http-nio-8080-exec-8] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/14/2019053014373337666.jpg
+2019-05-30 14:37:33.356 [http-nio-8080-exec-8] DEBUG com.o2o.util.ImageUtil - current dest addr:/Users/yukai/o2o/upload/images/item/shop/14/2019053014373337666.jpg
+2019-05-30 14:42:04.296 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 14:44:00.121 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 14:50:02.370 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 14:51:56.839 [http-nio-8080-exec-5] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/16/20190530145156102800.jpg
+2019-05-30 14:51:56.842 [http-nio-8080-exec-5] DEBUG com.o2o.util.ImageUtil - current dest addr:/Users/yukai/o2o/upload/images/item/shop/16/20190530145156102800.jpg
+2019-05-30 14:51:56.914 [http-nio-8080-exec-5] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/16/2019053014515626362.jpg
+2019-05-30 14:51:56.914 [http-nio-8080-exec-5] DEBUG com.o2o.util.ImageUtil - current dest addr:/Users/yukai/o2o/upload/images/item/shop/16/2019053014515626362.jpg
+2019-05-30 14:51:56.928 [http-nio-8080-exec-5] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/16/2019053014515613658.jpg
+2019-05-30 14:51:56.928 [http-nio-8080-exec-5] DEBUG com.o2o.util.ImageUtil - current dest addr:/Users/yukai/o2o/upload/images/item/shop/16/2019053014515613658.jpg
+2019-05-30 14:53:23.175 [http-nio-8080-exec-5] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/16/2019053014532351363.jpg
+2019-05-30 14:53:23.177 [http-nio-8080-exec-5] DEBUG com.o2o.util.ImageUtil - current dest addr:/Users/yukai/o2o/upload/images/item/shop/16/2019053014532351363.jpg
+2019-05-30 14:53:23.195 [http-nio-8080-exec-5] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/16/2019053014532397566.jpg
+2019-05-30 14:53:23.196 [http-nio-8080-exec-5] DEBUG com.o2o.util.ImageUtil - current dest addr:/Users/yukai/o2o/upload/images/item/shop/16/2019053014532397566.jpg
+2019-05-30 14:53:23.228 [http-nio-8080-exec-5] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/16/2019053014532378622.jpg
+2019-05-30 14:53:23.228 [http-nio-8080-exec-5] DEBUG com.o2o.util.ImageUtil - current dest addr:/Users/yukai/o2o/upload/images/item/shop/16/2019053014532378622.jpg
+2019-05-30 14:53:23.260 [http-nio-8080-exec-5] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/16/20190530145323104662.jpg
+2019-05-30 14:53:23.260 [http-nio-8080-exec-5] DEBUG com.o2o.util.ImageUtil - current dest addr:/Users/yukai/o2o/upload/images/item/shop/16/20190530145323104662.jpg
+2019-05-30 14:54:28.089 [http-nio-8080-exec-9] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/16/2019053014542850613.jpg
+2019-05-30 14:54:28.090 [http-nio-8080-exec-9] DEBUG com.o2o.util.ImageUtil - current dest addr:/Users/yukai/o2o/upload/images/item/shop/16/2019053014542850613.jpg
+2019-05-30 14:54:28.102 [http-nio-8080-exec-9] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/16/2019053014542823352.jpg
+2019-05-30 14:54:28.102 [http-nio-8080-exec-9] DEBUG com.o2o.util.ImageUtil - current dest addr:/Users/yukai/o2o/upload/images/item/shop/16/2019053014542823352.jpg
+2019-05-30 14:55:13.108 [http-nio-8080-exec-10] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/16/2019053014551331460.jpg
+2019-05-30 14:55:13.110 [http-nio-8080-exec-10] DEBUG com.o2o.util.ImageUtil - current dest addr:/Users/yukai/o2o/upload/images/item/shop/16/2019053014551331460.jpg
+2019-05-30 14:55:13.128 [http-nio-8080-exec-10] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/16/2019053014551351489.jpg
+2019-05-30 14:55:13.128 [http-nio-8080-exec-10] DEBUG com.o2o.util.ImageUtil - current dest addr:/Users/yukai/o2o/upload/images/item/shop/16/2019053014551351489.jpg
+2019-05-30 14:55:43.799 [http-nio-8080-exec-2] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/16/2019053014554349341.jpg
+2019-05-30 14:55:43.800 [http-nio-8080-exec-2] DEBUG com.o2o.util.ImageUtil - current dest addr:/Users/yukai/o2o/upload/images/item/shop/16/2019053014554349341.jpg
+2019-05-30 14:55:43.813 [http-nio-8080-exec-2] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/16/2019053014554324395.jpg
+2019-05-30 14:55:43.814 [http-nio-8080-exec-2] DEBUG com.o2o.util.ImageUtil - current dest addr:/Users/yukai/o2o/upload/images/item/shop/16/2019053014554324395.jpg
+2019-05-30 14:56:22.796 [http-nio-8080-exec-2] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/3/2019053014562216076.jpg
+2019-05-30 14:56:22.797 [http-nio-8080-exec-2] DEBUG com.o2o.util.ImageUtil - current dest addr:/Users/yukai/o2o/upload/images/item/shop/3/2019053014562216076.jpg
+2019-05-30 14:56:22.807 [http-nio-8080-exec-2] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/3/2019053014562271113.jpg
+2019-05-30 14:56:22.807 [http-nio-8080-exec-2] DEBUG com.o2o.util.ImageUtil - current dest addr:/Users/yukai/o2o/upload/images/item/shop/3/2019053014562271113.jpg
+2019-05-30 14:56:22.820 [http-nio-8080-exec-2] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/3/20190530145622109897.jpg
+2019-05-30 14:56:22.820 [http-nio-8080-exec-2] DEBUG com.o2o.util.ImageUtil - current dest addr:/Users/yukai/o2o/upload/images/item/shop/3/20190530145622109897.jpg
+2019-05-30 15:02:09.627 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 15:03:01.252 [http-nio-8080-exec-4] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/16/2019053015030125089.jpg
+2019-05-30 15:03:01.255 [http-nio-8080-exec-4] DEBUG com.o2o.util.ImageUtil - current dest addr:/Users/yukai/o2o/upload/images/item/shop/16/2019053015030125089.jpg
+2019-05-30 15:03:14.580 [http-nio-8080-exec-9] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/16/2019053015031480886.jpg
+2019-05-30 15:03:14.581 [http-nio-8080-exec-9] DEBUG com.o2o.util.ImageUtil - current dest addr:/Users/yukai/o2o/upload/images/item/shop/16/2019053015031480886.jpg
+2019-05-30 15:03:28.608 [http-nio-8080-exec-4] DEBUG com.o2o.util.ImageUtil - current relative addr:/upload/images/item/shop/16/2019053015032857316.jpg
+2019-05-30 15:03:28.609 [http-nio-8080-exec-4] DEBUG com.o2o.util.ImageUtil - current dest addr:/Users/yukai/o2o/upload/images/item/shop/16/2019053015032857316.jpg
+2019-05-30 15:04:30.278 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 15:05:29.113 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 15:08:44.114 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 17:52:34.798 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 17:56:43.715 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 17:58:28.897 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-30 18:05:25.565 [main] DEBUG com.o2o.O2OApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE

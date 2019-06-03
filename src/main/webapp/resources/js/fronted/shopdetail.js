@@ -34,7 +34,7 @@ $(function () {
                 function (data) {
                     if (data.success) {
                         var shop = data.shop;
-                        $('#shop-cover-pic').attr('src', shop.shopImg);
+                        $('#shop-cover-pic').attr('src', getContextPath() + shop.shopImg);
                         $('#shop-update-time').html(
                             new Date(shop.lastEditTime)
                                 .Format("yyyy-MM-dd"));

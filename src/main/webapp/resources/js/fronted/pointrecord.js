@@ -4,14 +4,15 @@ $(function () {
     var pageSize = 10;
 
     var listUrl = '/o2o/fronted/listuserawardmapsbycustomer';
+    var shopId = getQueryString("shopId");
 
     var pageNum = 1;
     var productName = '';
 
     function addItems(pageSize, pageIndex) {
         // 生成新条目的HTML
-        var url = listUrl + '?shopId=1&' + 'pageIndex=' + pageIndex
-            + '&pageSize=' + pageSize + '&productName=' + productName;
+        var url = listUrl + '?pageIndex=' + pageIndex
+            + '&pageSize=' + pageSize + '&productName=' + productName + "&shopId=" + shopId;
         loading = true;
         $.getJSON(url, function (data) {
             if (data.success) {
