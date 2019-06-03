@@ -7,11 +7,12 @@ $(function () {
 
     var pageNum = 1;
     var productName = '';
+    var shopId = getQueryString("shopId");
 
     function addItems(pageSize, pageIndex) {
         // 生成新条目的HTML
-        var url = listUrl + '?shopId=1&' + 'pageIndex=' + pageIndex
-            + '&pageSize=' + pageSize + '&productName=' + productName;
+        var url = listUrl + '?pageIndex=' + pageIndex
+            + '&pageSize=' + pageSize + '&productName=' + productName + '&shopId=' + shopId;
         loading = true;
         $.getJSON(url, function (data) {
             if (data.success) {
@@ -19,13 +20,13 @@ $(function () {
                 var html = '';
                 data.userProductMapList.map(function (item, index) {
                     html += '' + '<div class="card" data-product-id='
-                        + item.productId + '>'
+                        + item.product.productId + '>'
                         + '<div class="card-header">' + item.shop.shopName
                         + '</div>' + '<div class="card-content">'
                         + '<div class="list-block media-list">' + '<ul>'
                         + '<li class="item-content">'
                         + '<div class="item-inner">'
-                        + '<div class="item-subtitle">' + item.productName
+                        + '<div class="item-subtitle">' + item.product.productName
                         + '</div>' + '</div>' + '</li>' + '</ul>'
                         + '</div>' + '</div>' + '<div class="card-footer">'
                         + '<p class="color-gray">'

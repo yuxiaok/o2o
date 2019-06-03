@@ -58,7 +58,7 @@ public class MyAwardController {
                 shop.setShopId(shopId);
                 userAwardMapCondition.setShop(shop);
             }
-            String awardName = HttpRequestUtil.getString(request, "userName");
+            String awardName = HttpRequestUtil.getString(request, "productName");
             if (awardName != null) {
                 Award award = new Award();
                 award.setAwardName(awardName);

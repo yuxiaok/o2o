@@ -31,7 +31,6 @@ public class MyProductController {
         Map<String, Object> modelMap = new HashMap<String, Object>();
         int pageIndex = HttpRequestUtil.getInt(request, "pageIndex");
         int pageSize = HttpRequestUtil.getInt(request, "pageSize");
-        // todo
         PersonInfo user = (PersonInfo)request.getSession().getAttribute("user");
         if ((pageIndex > -1) && (pageSize > -1) && (user != null) && (user.getUserId() != -1)) {
             UserProductMap userProductMapCondition = new UserProductMap();

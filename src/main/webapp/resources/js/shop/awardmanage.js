@@ -17,13 +17,13 @@ $(function () {
                         contraryStatus = 0;
                     }
                     tempHtml += '' + '<div class="row row-award">'
-                        + '<div class="col-30">'
+                        + '<div class="col-40">'
                         + item.awardName
                         + '</div>'
                         + '<div class="col-20">'
                         + item.priority
                         + '</div>'
-                        + '<div class="col-50">'
+                        + '<div class="col-40">'
                         + '<a href="#" class="edit" data-id="'
                         + item.awardId
                         + '" data-status="'
@@ -36,11 +36,11 @@ $(function () {
                         + '">'
                         + textOp
                         + '</a>'
-                        + '<a href="#" class="preview" data-id="'
+                        /*+ '<a href="#" class="preview" data-id="'
                         + item.awardId
                         + '" data-status="'
                         + item.enableStatus
-                        + '">预览</a>'
+                        + '">预览</a>'*/
                         + '</div>'
                         + '</div>';
                 });

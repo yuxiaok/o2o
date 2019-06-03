@@ -17,8 +17,8 @@ $(function () {
                 var html = '';
                 data.userShopMapList.map(function (item, index) {
                     html += ''
-                        + '<div class="card" data-shop-id="' + item.shopId + '">'
-                        + '<div class="card-header">' + item.shopName + '</div>'
+                        + '<div class="card" data-shop-id="' + item.shop.shopId + '">'
+                        + '<div class="card-header">' + item.shop.shopName + '</div>'
                         + '<div class="card-content">'
                         + '<div class="list-block media-list">'
                         + '<ul>'

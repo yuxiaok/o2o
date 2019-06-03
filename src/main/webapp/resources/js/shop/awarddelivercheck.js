@@ -11,14 +11,13 @@ $(function () {
                 var tempHtml = '';
                 userAwardMapList.map(function (item, index) {
                     tempHtml += '' + '<div class="row row-awarddeliver">'
-                        + '<div class="col-10">' + item.award.awardName
+                        + '<div class="col-40">' + item.award.awardName
                         + '</div>'
-                        + '<div class="col-40 awarddeliver-time">'
-                        + new Date(item.createTime).Format("yyyy-MM-dd hh:mm:ss")
-                        + '</div>' + '<div class="col-20">' + item.user.userName
+                        + '<div class="col-30 awarddeliver-time">'
+                        + new Date(item.createTime).Format("yyyy-MM-dd")
+                        + '</div>' + '<div class="col-15">' + item.user.userName
                         + '</div>'
-                        + '<div class="col-10">' + item.point + '</div>'
-                        + '<div class="col-20">' + item.operator.userName + '</div>'
+                        + '<div class="col-15">' + item.point + '</div>'
                         + '</div>';
                 });
                 $('.awarddeliver-wrap').html(tempHtml);

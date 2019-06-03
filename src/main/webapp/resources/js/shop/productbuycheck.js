@@ -11,11 +11,9 @@ $(function () {
                 userProductMapList.map(function (item, index) {
                     tempHtml += ''
                         + '<div class="row row-productbuycheck">'
-                        + '<div class="col-10">' + item.product.productName + '</div>'
-                        + '<div class="col-40 productbuycheck-time">' + new Date(item.createTime).Format('yyyy-MM-dd hh:mm:ss') + '</div>'
+                        + '<div class="col-40">' + item.product.productName + '</div>'
+                        + '<div class="col-40 productbuycheck-time">' + new Date(item.createTime).Format('yyyy-MM-dd') + '</div>'
                         + '<div class="col-20">' + item.user.userName + '</div>'
-                        + '<div class="col-10">' + item.point + '</div>'
-                        + '<div class="col-20">' + item.operator.userName + '</div>'
                         + '</div>';
                 });
                 $('.productbuycheck-wrap').html(tempHtml);

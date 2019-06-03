@@ -44,14 +44,15 @@ $(function () {
                 swiperHtml += '<div> <img src="/o2o/fronted/generateqrcode4product?productId=' + product.productId + '" ' +
                     'width="100%"/></div>';
                 // }
+                
                 //将轮播图赋值给前端HTML控件
                 $('.swiper-wrapper').html(swiperHtml);
                 //设定轮播图轮换时间为3s
-                $(".swiper-container").swiper({
+                /*$(".swiper-container").swiper({
                     autoplay: 1500,
                     //用户对轮播图进行操作时，是否自动停止轮播
                     autoplayDisableOnInteraction: false
-                });
+                });*/
             }
         });
     $('#me').click(function () {

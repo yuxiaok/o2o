@@ -70,4 +70,5 @@ public class FrontedController {
     private String myPoint() {
         return "fronted/mypoint";
     }
+
 }
