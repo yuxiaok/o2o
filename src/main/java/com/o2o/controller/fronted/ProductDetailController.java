@@ -81,15 +81,14 @@ public class ProductDetailController {
     }
 
     @Value("${wechat.productmap.url}")
-    public void setAuthUrl(String authUrl) {
-        ProductDetailController.productmapUrl = authUrl;
+    public void setProductmapUrl(String productmapUrl) {
+        ProductDetailController.productmapUrl = productmapUrl;
     }
 
     @RequestMapping(value = "/generateqrcode4product", method = RequestMethod.GET)
     @ResponseBody
-    private void generateQRCode4Product(HttpServletRequest request, HttpServletResponse response) {
+    public void generateQRCode4Product(HttpServletRequest request, HttpServletResponse response) {
         long productId = HttpRequestUtil.getLong(request, "productId");
-        // todo
         PersonInfo user = (PersonInfo)request.getSession().getAttribute("user");
         if (productId != -1 && user != null && user.getUserId() != null) {
             long timpStamp = System.currentTimeMillis();

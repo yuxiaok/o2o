@@ -44,6 +44,7 @@ public class MD5 {
     }
 
     public static void main(String[] args) {
+        System.out.println(MD5.getMd5("root"));
         System.out.println(MD5.getMd5("123456"));
     }
 }

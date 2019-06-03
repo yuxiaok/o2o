@@ -1,10 +1,1 @@
-2019-05-30 00:00:00.020 [schedulerFactory_Worker-1] INFO  com.o2o.service.impl.ProductSellDailServiceImpl - Quartz running
-2019-05-30 08:38:46.991 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on yukaideMacBook-Pro.local with PID 5486 (/Users/yukai/ideaworkspace/o2o/target/classes started by yukai in /Users/yukai/ideaworkspace/o2o)
-2019-05-30 08:38:46.997 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-05-30 08:38:49.525 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 2.843 seconds (JVM running for 3.458)
-2019-05-30 08:40:21.705 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on yukaideMacBook-Pro.local with PID 5493 (/Users/yukai/ideaworkspace/o2o/target/classes started by yukai in /Users/yukai/ideaworkspace/o2o)
-2019-05-30 08:40:21.708 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-05-30 08:40:24.406 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 3.028 seconds (JVM running for 3.725)
-2019-05-30 09:25:55.453 [main] INFO  com.o2o.O2OApplication - Starting O2OApplication on yukaideMacBook-Pro.local with PID 5715 (/Users/yukai/ideaworkspace/o2o/target/classes started by yukai in /Users/yukai/ideaworkspace/o2o)
-2019-05-30 09:25:55.456 [main] INFO  com.o2o.O2OApplication - No active profile set, falling back to default profiles: default
-2019-05-30 09:25:58.210 [main] INFO  com.o2o.O2OApplication - Started O2OApplication in 3.1 seconds (JVM running for 3.764)
+2019-06-01 00:00:00.010 [schedulerFactory_Worker-2] INFO  com.o2o.service.impl.ProductSellDailServiceImpl - Quartz running
